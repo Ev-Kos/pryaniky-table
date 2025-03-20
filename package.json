@@ -10,7 +10,8 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "preview": "vite preview",
-    "prepare": "husky"
+    "prepare": "husky",
+    "pre-commit": "npm run lint"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

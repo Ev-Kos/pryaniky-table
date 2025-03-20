@@ -1,1 +1,4 @@
-npm pre-commit
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/h"
+
+npm run pre-commit
